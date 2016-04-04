@@ -1,7 +1,7 @@
 name:
   json-pointer-hasql
 version:
-  0.1
+  0.1.1
 synopsis:
   JSON Pointer extensions for Hasql
 description:
@@ -52,7 +52,7 @@ library
     --
     text == 1.*,
     --
-    base-prelude >= 0.1.21 && < 0.2
+    base-prelude >= 0.1.21 && < 2
 
 
 test-suite test
@@ -82,4 +82,4 @@ test-suite test
     json-pointer-hasql,
     either,
     transformers,
-    rebase >= 0.2.3 && < 0.3
+    rebase >= 0.5 && < 2
